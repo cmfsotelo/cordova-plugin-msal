@@ -47,6 +47,7 @@
             </activity>
         </config-file>
         <source-file src="src/android/MsalPlugin.java" target-dir="src/com/wrobins/cordova/plugin" />
+        <dependency id="cordova-androidx-build" url="https://github.com/cmfsotelo/cordova-androidx-build.git" commit="1cbb08044c3554c76b26db3f167442085e6805e5" />
         <framework src="src/android/build-extras.gradle" custom="true" type="gradleReference" />
     </platform>
     <platform name="ios">
